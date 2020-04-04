@@ -210,19 +210,19 @@
                         <form action="enviar.php" method="post">
                             <div class="row">
                                 <div class="col-12 col-lg-6">
-                                    <input name="nombre" type="text" class="form-control" id="nombre" placeholder="Nombre"required>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre"required>
                                 </div>
                                 <div class="col-12 col-lg-6">
-                                    <input name="correo" type="email" class="form-control" id="correo" placeholder="Correo"required>
+                                    <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo"required>
                                 </div>
                                 <div class="col-12">
-                                    <input name="asunto" type="text" class="form-control" id="asunto" placeholder="Asunto"required>
+                                    <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Asunto"required>
                                 </div>
                                 <div class="col-12">
-                                    <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="10" placeholder="Mensaje"required></textarea>
+                                    <textarea class="form-control" id="mensaje" cols="30" rows="10" name="mensaje" placeholder="Mensaje"required></textarea>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <button class="btn delicious-btn mt-30" type="submit">Enviar</button>
+                                    <button class="btn delicious-btn mt-30" type="submit" value="Enviar" </button>
                                 </div>
                             </div>
                         </form>
